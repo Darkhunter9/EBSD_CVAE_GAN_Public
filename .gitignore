@@ -1,0 +1,13 @@
+.vscode/*
+
+/Data/*
+/Logs/*
+
+*.h5ebsd
+*.h5
+*.hdf
+*.jpg
+*.png
+*.csv
+
+TODO.txt
