@@ -1,16 +1,19 @@
 # EBSD_CVAE_GAN_Public
 This public repository contains code to reproduce the training of the model [**EBSD-CVAE/GAN**](https://github.com/Darkhunter9/EBSD_CVAE_GAN_Public) proposed in our paper: \
 **Parametric Simulation of Electron Backscatter Diffraction Patterns through Generative Models**
-<figure align="center">
-<img src="docs/architecture.png" height="300">
-<figcaption align="center"><b>Architecture of EBSD-CVAE/GAN.</b></figcaption>
-</figure>
 
-<figure align="center">
+<p align="center">
+<img height="300" src="docs/architecture.png">
+<br>
+<b>Architecture of EBSD-CVAE/GAN.</b>
+</p>
+
+<p align="center">
 <img src="docs/CVAE_GAN.gif" height="300">
 <img src="docs/CVAE_GAN_AV.gif" height="300">
-<figcaption align="center"><b>Generated patterns during the training: manipulated attributes include orientation only (left), and manipulated attributes include orientation and accelerating voltage (right).</b></figcaption>
-</figure>
+<br>
+<b>Generated patterns during the training: manipulated attributes include orientation only (left), and manipulated attributes include orientation and accelerating voltage (right).</b>
+</p>
 
 ## Abstract
 Recently, discriminative machine learning (ML) models have been widely used to predict various attributes from Electron Backscatter Diffraction (EBSD) patterns. However, there has never been any generative model developed for EBSD pattern simulation.
